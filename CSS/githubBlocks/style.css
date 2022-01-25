@@ -1,0 +1,44 @@
+img {
+    display: inline-block;
+    justify-content: center;
+    height: 200px;
+    margin: 5px;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.firstLine {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightblue;
+    margin: 10px;
+    padding: 10px;
+}
+
+.secondLine {
+    background-color: lightpink;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 10px;
+}
+
+.thirdLine {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+}
