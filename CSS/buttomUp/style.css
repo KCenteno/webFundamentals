@@ -1,0 +1,30 @@
+.one {
+    font-style: bold;
+    border: solid;
+    color: teal;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    border-color: mediumturquoise;
+    width: 120px;
+}
+
+.circle {
+    margin-top: 10px;
+    align-items: center;
+    color: white;
+    background-color: rgb(84, 204, 164);
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    border: solid;
+    font-size: 25px;
+}
+
+.three {
+    border-color: black;
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(54, 114, 243);
+    box-shadow: 2px 2px 0px 0px black;
+    width: 135px;
+}
