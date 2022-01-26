@@ -6,6 +6,7 @@
     border-radius: 20px;
     border-color: mediumturquoise;
     width: 120px;
+    border-width: thin;
 }
 
 .circle {
