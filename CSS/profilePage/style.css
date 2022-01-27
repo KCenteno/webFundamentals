@@ -2,7 +2,6 @@
     padding: 0%;
     margin: 0%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: ghostwhite;
 }
 
 /* navbar */
@@ -20,6 +19,7 @@ h1 {
 }
 
 #links {
+    color: ghostwhite;
     display: flex;
     align-items: center;
 }
@@ -54,7 +54,127 @@ ul li:hover {
     width: 100px;
 }
 
-/*  */
-/*  */
+/* user card */
+
+.page {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 350px;
+    margin-top: 30px;
+    height: 350px;
+    width: 500px;
+    background-color: white;
+    border-style: solid;
+    border-color: lightgray;
+}
+
+.blue {
+    height: 75px;
+    flex: 1;
+    background-color: lightseagreen;
+}
+
+.name {
+    width: 200px;
+    margin-left: -3px;
+    color: black;
+}
+
+.white {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 3;
+}
+
+.firstImg {
+    width: 80px;
+    margin-top: 40px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    width: 130px;
+}
+
+.secondImg {
+    margin-right: 10px;
+    width: 10px;
+}
+
+.thirdImg {
+    margin-right: 10px;
+    height: 15px;
+    width: 15px;
+}
+
+.icon h3, .icon a {
+    display: inline-block;
+
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+
+/* top left box */
+
+#connection {
+    display: inline-flex;
+    vertical-align: top;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 150px;
+    width: 200px;
+    border: solid lightgray;
+}
+
+.countbar {
+    display: flex; 
+    flex: 1;
+    width: 200px;
+    background-color: gray;
+}
+
+
+.count {
+    margin: 7px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    background-color: lightgray;
+    border-radius: 50%;
+}
+
+.topboxr {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: white;
+}
+
+
+.countbarbottem {
+    display: flex;
+    flex-direction: row;
+    flex: 3;
+}
+
+
+
+
+
+
 /*  */
 /*  */
