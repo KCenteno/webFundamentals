@@ -9,7 +9,7 @@
 #navbar {
     background-color: black;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     border: 2px solid turquoise;
 }
 
@@ -46,9 +46,15 @@ ul li:hover {
 
 
 #signoutbar {
+    margin-left: 288px;
     padding: 3px;
     background-color: turquoise;
     border: 2px solid darkgrey;
     text-align: center;
     width: 100px;
 }
+
+/*  */
+/*  */
+/*  */
+/*  */
