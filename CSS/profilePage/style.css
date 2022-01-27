@@ -44,14 +44,11 @@ ul li:hover {
     cursor: pointer;
 }
 
-#signout {
-margin-left: 500px;
-    /* display: flex; */
-}
 
 #signoutbar {
+    padding: 3px;
     background-color: turquoise;
-    border: 3px solid darkgrey;
+    border: 2px solid darkgrey;
     text-align: center;
     width: 100px;
 }
