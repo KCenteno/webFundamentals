@@ -14,7 +14,6 @@
 
 h1 {
     margin: 10px 0px;
-    margin-left: 100px;
     color: white;
 }
 
@@ -32,7 +31,7 @@ h1 {
 }
 
 li {
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 ul li {
@@ -46,24 +45,33 @@ ul li:hover {
 
 
 #signoutbar {
-    margin-left: 288px;
+    margin-left: 140px;
     padding: 3px;
+    color: white;
     background-color: turquoise;
     border: 2px solid darkgrey;
     text-align: center;
     width: 100px;
 }
 
+
+
 /* user card */
+
+.container {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 20px;
+    max-width: 850px;
+}
 
 .page {
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 350px;
-    margin-top: 30px;
     height: 350px;
-    width: 500px;
+    width: 575px;
     background-color: white;
     border-style: solid;
     border-color: lightgray;
@@ -127,30 +135,26 @@ h1 {
 /* top left box */
 
 #connection {
-    display: inline-flex;
-    vertical-align: top;
-    flex-direction: column;
-    margin-top: 30px;
-    margin-left: 20px;
     height: 150px;
-    width: 200px;
+    width: 250px;
     border: solid lightgray;
 }
 
 .countbar {
-    display: flex; 
-    flex: 1;
-    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
     background-color: gray;
 }
 
+.small {
+    width: 30px;
+}
 
 .count {
     margin: 7px;
     padding: 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     height: 20px;
     width: 20px;
     background-color: lightgray;
@@ -166,13 +170,30 @@ h1 {
 
 
 .countbarbottem {
-    display: flex;
-    flex-direction: row;
-    flex: 3;
+    display: block;
+    height: 100%;
+}
+
+table {
+    height: 100%;
+    width: 100%;
 }
 
 
+tr {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
 
+td {
+    margin: 5px;
+}
+
+td img {
+    margin-left: 4px;
+}
 
 
 
