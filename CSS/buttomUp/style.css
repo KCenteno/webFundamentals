@@ -1,17 +1,14 @@
 .one {
     font-style: bold;
-    border: solid;
+    border: 2px solid mediumturquoise;
     color: teal;
     background-color: whitesmoke;
     border-radius: 20px;
-    border-color: mediumturquoise;
     width: 120px;
-    border-width: thin;
 }
 
 .circle {
     margin-top: 10px;
-    align-items: center;
     color: white;
     background-color: rgb(84, 204, 164);
     border-radius: 50%;
