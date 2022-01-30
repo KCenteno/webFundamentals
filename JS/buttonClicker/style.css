@@ -44,6 +44,15 @@ input {
     box-shadow: 2px 2px 0px 0px black;
 }
 
+/* page wrap */
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    vertical-align: top;
+}
+
 /* box 1 and 2 */
 
 .lcolumn {
@@ -90,12 +99,7 @@ p {
     margin-top: 20px;
 }
 
-.wrap {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    vertical-align: top;
-}
+
 
 .box3 {
     width: 180px;
