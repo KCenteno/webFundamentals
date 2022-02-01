@@ -23,7 +23,7 @@
         <div class="page">
             <div class="blue"><img class="firstImg" src="./images/jane-m.jpg" alt="person picture"></div>
                 <div class="white">
-                    <h1 class="name">Jane Doe</h1>
+                    <h1 class="name" id="random" >Jane Doe</h1>
                 <div class="icon">
                     <img class="secondImg" src="./icons/map-marker.png" alt="map-marker"><h3>Seattle</h3>
                 </div>
@@ -32,24 +32,24 @@
                     <p>Master of shadow and the Internet!</p>
                 </div>
                 <div class="icon">
-                    <img class="thirdImg" src="./icons/gear.png" alt="gear"><a href="">edit profile</a>
+                    <img onclick="change()" class="thirdImg" src="./icons/gear.png" alt="gear"><a href="">edit profile</a>
                 </div>
             </div>
         </div>
         <div id="connection">
             <div class="countbar">
-                <div class="count">2</div><p class="topbox"><strong>Connection Requests</strong></p>
+                <div class="count" id="low">2</div><p class="topbox"><strong>Connection Requests</strong></p>
             </div>
             <div class="countbarbottem">
                 <table>
                     <tbody>
-                    <tr>
+                    <tr id="accpet">
                         <td><img class="small" src="./images/todd-s.jpg" alt="Picture of Todd">Todd E</td>
-                        <td><img class="small" src="./icons/accept-circle.png" alt="Accpet"><img class="small" src="./icons/close-circle.png" alt="Close"></td>
+                        <td onclick="hide('#accpet'); down('#low')"><img onclick="up()" class="small"  src="./icons/accept-circle.png" alt="Accpet"><img class="small"  src="./icons/close-circle.png" alt="Close"></td>
                     </tr>
-                    <tr>
+                    <tr id="close">
                         <td><img class="small" src="./images/phil-s.jpg" alt="Picture of Phil">Phill K</td>
-                        <td><img class="small" src="./icons/accept-circle.png" alt="Accpet"><img class="small" src="./icons/close-circle.png" alt="Close"></td>
+                        <td onclick="hide('#close'); down('#low')"><img onclick="up()" class="small" src="./icons/accept-circle.png" alt="Accpet"><img class="small" src="./icons/close-circle.png" alt="Close"></td>
                     </tr>
                     </tbody>
                 </table>
@@ -66,7 +66,7 @@
         </div>
     <div class="connection2">
         <div class="countbar">
-            <div class="count2">500+</div><p class="topbox"><strong>Your Connections</strong></p>
+            <div class="count2" id="up">500</div><p class="topbox"><strong>Your Connections</strong></p>
         </div>
         <div class="undercountbar">
             <table>
@@ -104,5 +104,6 @@
     </div>
     </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
